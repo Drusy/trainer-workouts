@@ -21,35 +21,36 @@ It is an independent training tool and not a game.
 
 {{ site.app_name }} may access the following data to provide core features:
 
-- Bluetooth data from paired devices (heart rate, cadence, power, speed)
-- Workout and session data (duration, metrics, history)
-- Optional profile settings (weight, FTP)
-- Optional Strava account connection (only if user enables it)
-- Optional local notifications (only if user grants permission)
+Bluetooth data from paired devices (heart rate, cadence, power, speed)
+Workout and session data (duration, metrics, history)
+Optional profile settings (weight, FTP)
+Optional Strava account connection (only if user enables it)
+Optional local notifications (only if user grants permission)
 
 ## How Data Is Stored
 
-- Workout and session files are stored locally on your device.
-- Imported/generated workouts are stored locally.
-- If Strava sync is enabled, session files may be uploaded to Strava through your authenticated account.
-- We do not sell personal data.
+Workout and session files are stored locally on your device.
+Imported/generated workouts are stored locally.
+If Strava sync is enabled, session files may be uploaded to Strava through your authenticated account.
+We do not sell personal data.
 
 ## Permissions
 
 Depending on enabled features, the app may request:
 
-- Bluetooth permission (device discovery and live metrics)
-- Notification permission (workout block change alerts)
-- Files access (import/export of `.zwo` workouts)
+Bluetooth permission (device discovery and live metrics)
+Notification permission (workout block change alerts)
+Files access (import/export of `.zwo` workouts)
 
 ## Third-Party Services
 
-- **Strava API** (optional, only when connected by user):  
-  [https://developers.strava.com](https://developers.strava.com)
+**Strava API** (optional, only when connected by user):  
+[https://developers.strava.com](https://developers.strava.com)
 
-- **Firebase Crashlytics** (app stability and crash diagnostics)
+**Firebase Crashlytics** (app stability and crash diagnostics)
 
 ## Resources
 
 This app uses Apple system UI assets (SF Symbols) and user-provided workout files (`.zwo`).  
-Third-party brand assets (e.g., Strava button) are used according to their brand guidelines.
+Third-party brand assets (e.g., Strava button) are used according to their brand guidelines.  
+
