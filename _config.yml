@@ -19,31 +19,31 @@ links:
 
 app_description: |
   Trainer Workouts is a focused iOS app built for indoor cycling sessions with Bluetooth sensors and smart trainers. It helps athletes train with structure, monitor key metrics live, and keep a clean workout history.
-
+  <br />
   **Live training dashboard**  
   Real-time display of core metrics like power, cadence, heart rate, speed, distance, and elapsed time.  
 
   **Bluetooth device management**  
   Easy pairing and reconnection for heart rate monitors, cadence sensors, and home trainers.  
-
+  <br />
   **Structured workouts**  
   Built-in and custom Zwift `.zwo` workouts with visual timeline and target guidance.  
-
+  <br />
   **Workout creation & import/export**  
   Create workouts directly in the app, import `.zwo` files from Files, and export workouts when needed.  
-
+  <br />
   **Session control**  
   Start, pause, resume, and stop sessions with optional automation at workout end.  
-
+  <br />
   **Workout guidance cues**  
   Optional countdown alerts before interval changes, with sound/vibration support.  
-
+  <br />
   **History & performance tracking**  
   Full session history with summary metrics and detailed post-workout view.  
-
+  <br />
   **Strava integration**  
   Connect your Strava account and sync sessions with clear sync status tracking.  
-
+  <br />
   **Athlete settings**  
   Configure FTP, weight, and training-related behavior from a dedicated settings area.
 
