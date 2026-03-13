@@ -24,10 +24,10 @@ a {
     @apply text-blue-900 dark:text-blue-200;
 }
 
-ul {
-    @apply list-disc list-outside ml-4;
+.markdown ul {
+    @apply list-disc list-inside w-fit mx-auto text-left;
 }
 
-ol {
-    @apply list-decimal list-outside ml-4;
+.markdown ol {
+    @apply list-decimal list-inside w-fit mx-auto text-left;
 }
