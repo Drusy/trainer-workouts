@@ -42,6 +42,17 @@ Bluetooth permission (device discovery and live metrics)
 Notification permission (workout block change alerts)
 Files access (import/export of `.zwo` workouts)
 
+## In app purchase and subscription
+
+Two full training sessions are available for free.
+
+After that, users can unlock a Premium version for unlimited sessions through:
+
+- a monthly subscription
+- a yearly subscription
+
+Users can also purchase a Lifetime option to get unlimited sessions forever with a one-time payment.
+
 ## Third-Party Services
 
 **Strava API** (optional, only when connected by user):  
@@ -53,4 +64,3 @@ Files access (import/export of `.zwo` workouts)
 
 This app uses Apple system UI assets (SF Symbols) and user-provided workout files (`.zwo`).  
 Third-party brand assets (e.g., Strava button) are used according to their brand guidelines.  
-
