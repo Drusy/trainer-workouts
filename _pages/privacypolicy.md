@@ -3,6 +3,7 @@ layout: post
 title: Privacy Policy
 permalink: /privacy/
 include_in_footer: true
+lang: en
 ---
 
 # {{ site.app_name }}
