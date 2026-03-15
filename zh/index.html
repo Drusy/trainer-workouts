@@ -26,7 +26,7 @@ permalink: /zh/
 <section class="max-w-screen-lg m-auto">
     <h2 class="ml-6 text-2xl font-bold">截图</h2>
     <div class="flex gap-x-7 overflow-x-scroll">
-        {% assign screenshots = site.static_files | where: "screenshot", true %}
+        {% assign screenshots = site.static_files | where_exp: "f", "f.path contains '/assets/screenshots/zh/'" %}
         {% for img in screenshots %}
         <img class="{% if forloop.first %}ml-7{% endif %} {% if forloop.last %}mr-7{% endif %} w-48 h-auto shadow rounded-2xl transform transition duration-300 hover:scale-105 my-7"
             src="{{ img.path | relative_url }}" alt="{{ img.name }}">
